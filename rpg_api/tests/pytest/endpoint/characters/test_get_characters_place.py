@@ -130,7 +130,7 @@ async def test_get_character_place_named_place_radius_inside_boundary(
 @pytest.mark.parametrize(
     "x_character, y_character, radius_place, x_place, y_place",
     [
-        (10, 0, 9.999999, 0, 0),
+        (10, 0, 19.999999, 0, 0),
         (0, 10, 9.999998, 0, 0),
         (-10, 0, 9.999999, -10, -10),
         (0, -10, 9.999998, -10, -10),
